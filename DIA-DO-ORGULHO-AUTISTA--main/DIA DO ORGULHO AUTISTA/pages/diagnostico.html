@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/diagnostico.css">
+    <title>DIAGNÓSTICO</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-nav">
+            <div class="container-logo">
+                <img src="../image/logo.webp" width="50px">
+            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">CELEBRAÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/autismo.html">AUTISMO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link button-active" href="../pages/diagnostico.html">DIAGUINÓSTICO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/interaçao.html">INTERAÇÃO SOCIAL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="../pages/simbologia.html">SIMBOLOGIA</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-first-title">
+        DIAGNÓSTICO DO AUTISMO
+    </div><br>
+    <div class="container-principal">
+        <img src="../image/medico-imagem.png" width="500px">
+    </div><br>
+    <div class="container-texto">
+        <p>
+            Para diagnosticar o autismo, uma série de testes deve ser realizada, sendo o diagnóstico basicamente
+            clínico. O médico deverá avaliar o desenvolvimento, as habilidades do paciente, a comunicação, entre outros
+            fatores. Vale salientar que cada pessoa autista apresenta uma dificuldade e uma habilidade diferente da
+            outra, portanto, é necessária uma análise por uma equipe multiprofissional.
+        </p>
+        <br>
+        <hr>
+        <div class="container-title">
+            Como proceder após o diagnóstico?
+        </div><br>
+        <p>
+            Como dito anteriormente, o autista apresenta dificuldades e habilidades que precisam ser exploradas. Uma
+            equipe
+            deverá atuar de maneira interdisciplinar de modo a conseguir o melhor desenvolvimento do indivíduo. Entre os
+            profissionais que podem ajudar no acompanhamento do autista, podemos citar o psicólogo, psiquiatra,
+            pediatra,
+            fonoaudiólogo, terapeuta ocupacional e fisioterapeuta.
+        </p>
+        <br>
+        <hr>
+        <div class="container-title">
+            O que pode caracterizar o autismo?
+        </div><br>
+        <p>
+            O autismo pode ser observado logo no início da vida do paciente, sendo comum a ocorrência de alterações em
+            torno dos três anos de idade. Geralmente, os pais iniciam suas preocupações quando o paciente ainda não
+            desenvolveu linguagem, por volta dos 12 meses aos 18 meses. Entre os sintomas que podem aparecer em autistas
+            e que são sinais de alerta, podemos destacar:
+
+        <ul class="ul"> 
+            <li>Bebê não imita;</li>
+
+            <li>Bebê não gosta de colo;</li>
+
+            <li>Movimentos repetitivos com as mãos ou com o corpo;</li>
+
+            <li>Manipulação de objetos repetidamente;</li>
+
+            <li>Hábito de morder-se, morder roupas ou puxar os cabelos;</li>
+
+            <li>Problemas de sono;</li>
+
+            <li>Recusa alimentar ou restrição a poucos alimentos;</li>
+
+            <li>Interesses intensos (hiperfoco);</li>
+
+            <li>Falta de contato ocular;</li>
+         
+            <li>Falta de comunicação com gestos;</li>
+
+            <li>Deficit de linguagem e comunicação;</li>
+
+            <li>Dificuldade em participar de atividades em grupo;</li>
+
+            <li>Indiferença afetiva ou demonstrações inapropriadas de afeto;</li>
+
+            <li>Falta de empatia social ou emocional;</li>
+
+            <li>Epilepsia em quase 30% dos casos.</li>
+
+        </ul>
+        </p>
+        <p>
+            Vale salientar que as manifestações citadas são comuns, mas não significam que a presença delas é suficiente
+            para o diagnóstico de autismo e nem que elas ocorram com a mesma intensidade em todas as pessoas. A
+            dificuldade de comunicação, por exemplo, acontece em níveis variados, sendo que algumas crianças não
+            desenvolvem essa habilidade
+        </p>
+    </div><br>
+
+    <footer>
+        Ana Clara Rodrigues de Moura
+        <img src="../image/logo-footer.png" width="150px">
+    </footer>
+
+    <script>
+        let text = document.querySelector(".ul");
+        window.addEventListener("scroll", function(){
+            if(window.scrollY > 500){
+            text.classList.add("ul-active");
+            }else{
+                text.classList.remove("ul-active");
+
+            }
+        })
+    </script>
+</body>
+
+</html>

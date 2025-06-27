@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.container-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    position: fixed;
+    box-shadow: 0 0 100px 0 rgb(139, 139, 255);
+    z-index: 1;
+}
+
+.nav{
+    align-items: center;
+}
+.nav-link{
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 15px 0px;
+    box-shadow: 0px 10px 10px 8px rgb(139, 139, 255);
+}
+
+.button-active{
+    color: blue;
+    box-shadow: 0px 0px 5px 0px blue;
+
+}
+
+img{
+    border-radius: 10px;
+}
+
+.container-first-title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 15%;
+
+}
+.container-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 15%;
+
+}
+.container-principal{
+    text-align: center;
+    margin: 0 15%;
+}
+
+.container-texto{
+    margin: 0 15%;
+    opacity: 0;
+    animation: animation .8s forwards;
+
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.ul{
+    opacity: 0;
+}
+.ul-active{
+    animation: animation .8s forwards;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

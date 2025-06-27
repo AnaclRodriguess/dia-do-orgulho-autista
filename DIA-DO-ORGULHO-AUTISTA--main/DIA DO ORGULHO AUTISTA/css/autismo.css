@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.container-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    backdrop-filter: blur(30px);
+    position: fixed;
+    box-shadow: 0 0 100px 0 rgb(139, 139, 255);
+    z-index: 1;
+}
+
+.nav{
+    align-items: center;
+}
+.nav-link{
+    color: black;
+}
+
+.container-principal{
+    padding-top: 100px;
+    margin: 0 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+/* ------------------------------- */
+
+.container-primeiro-texto{
+    width: 400px;
+    padding: 5px 30px;
+    background-color: rgb(91, 91, 255);
+    border-radius: 10px;
+    color: white;
+    min-height: 300px;
+    transition:transform .3s ease;
+    animation: grid .5s forwards;
+
+}
+
+/* ------------------------------- */
+.container-segundo-texto{
+    width: 400px;
+    padding: 5px 30px;
+    background-color: yellow;
+    border-radius: 10px;
+    min-height: 300px;
+    transition:transform .3s ease;
+    animation: grid .8s forwards;
+
+}
+
+/* ------------------------------- */
+.container-terceiro-texto{
+    width: 400px;
+    padding: 5px 30px;
+    background-color: red;
+    border-radius: 10px;
+    min-height: 300px; 
+    transition:transform .3s ease;
+    animation: grid2 .5s forwards;
+
+      
+}
+
+/* ------------------------------- */
+
+.container-quarto-texto{
+    width: 400px;
+    padding: 5px 30px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    min-height: 300px;
+    transition:transform .3s ease;
+    animation: grid2 .8s forwards;
+}
+
+/* ------------------------------- */
+
+.container-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 15px 0px;
+    box-shadow: 0px 10px 10px 8px rgb(139, 139, 255);
+    bottom: 0;
+    left: 0;
+}
+
+.button-active{
+    color: blue;
+    box-shadow: 0px 0px 5px 0px blue;
+
+}
+
+@keyframes grid {
+    0%{
+        transform: translateY(-1000px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes grid2 {
+    0%{
+        transform: translateY(1000px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
